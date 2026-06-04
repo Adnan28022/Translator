@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css';
 import { BrowserRouter } from 'react-router-dom'
 import { Provider } from 'react-redux';
-import { store } from './redux/store'; // Jo store humne pehle banaya
+import { store } from './redux/Store.js'; // Jo store humne pehle banaya
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
